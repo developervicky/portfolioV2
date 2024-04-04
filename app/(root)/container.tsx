@@ -44,8 +44,8 @@ const Container: FC<ContainerProps> = ({ children }) => {
       </div>
       <div className="col-span-1 h-full w-full">
         <div className="fixed bottom-0  h-[200px] w-0  border-r-[1px] border-slate-500 px-2" />
-        <div className="fixed  bottom-[15rem]">
-          <div className="flex flex-col gap-6 text-slate-500">
+        <div className="fixed  bottom-[13.6rem]">
+          <div className="flex flex-col gap-4 text-slate-500">
             <Link
               target="_blank"
               href={"https://www.linkedin.com/in/vignesh-kathiresan-kv"}
