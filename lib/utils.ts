@@ -36,7 +36,7 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: "@vigneshkathiresan22",
+      creator: "@vicky_kv6",
     },
     icons,
     metadataBase: new URL("https://vigneshk.vercel.app"),
