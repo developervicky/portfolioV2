@@ -36,7 +36,7 @@ const ProjectTabs = () => {
           className="rounded-md border-[1px] border-slate-400 "
         >
           <div className="flex flex-col lg:grid lg:grid-cols-12">
-            <div className="relative h-[15rem] overflow-hidden rounded-t-md lg:col-span-5 lg:h-full lg:rounded-l-md lg:rounded-t-none">
+            <div className="relative h-[15rem] overflow-hidden rounded-t-md lg:col-span-5 lg:h-full lg:!rounded-l-md lg:rounded-t-none">
               <Image
                 src={project.imageUrl}
                 alt={project.title}

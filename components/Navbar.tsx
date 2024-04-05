@@ -5,7 +5,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className=" fixed top-0 z-[9999] w-full bg-transparent  backdrop-blur-[8px] ">
+    <nav className=" fixed top-0 z-[100] w-full bg-transparent  backdrop-blur-[8px] ">
       <div className="flex justify-between px-7 py-5 sm:px-12">
         <Link href={"/"}>
           <p className="text-xl sm:text-2xl xl:pl-10 ">{"<vignesh />"}</p>
