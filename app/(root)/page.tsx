@@ -7,10 +7,13 @@ import Skills from "@/components/Skills";
 import Services from "@/components/Services";
 import Projects from "@/components/Project";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import MobileNavbar from "@/components/MobileNavbar";
 
 export default function Home() {
   return (
     <main className="h-screen">
+      <MobileNavbar />
       <Navbar />
       <Container>
         <Hero />
@@ -19,6 +22,7 @@ export default function Home() {
         <Services />
         <Projects />
         <Contact />
+        <Footer />
       </Container>
     </main>
   );
