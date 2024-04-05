@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import { cn } from "@/lib/utils";
+import { cn, constructMetadata } from "@/lib/utils";
 import { gtFont } from "@/lib/fonts";
 import ToasterProvider from "@/providers/ToastProvider";
-import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
-  title: "Vignesh K | Fullstack Software Developer",
-  description:
-    "Vignesh develops applications using stacks like Next.JS, Typescript, Node.JS, MongoDB and AWS",
+import type { Viewport } from "next";
+
+export const metadata: Metadata = constructMetadata();
+
+export const viewport: Viewport = {
+  themeColor: "#fffef4",
 };
 
 export default function RootLayout({

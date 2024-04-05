@@ -1,3 +1,4 @@
+"use client";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Container from "./container";
@@ -10,20 +11,22 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import MobileNavbar from "@/components/MobileNavbar";
 
+
+
 export default function Home() {
   return (
-    <main className="h-screen">
-      <MobileNavbar />
-      <Navbar />
-      <Container>
-        <Hero />
-        <About />
-        <Skills />
-        <Services />
-        <Projects />
-        <Contact />
-        <Footer />
-      </Container>
-    </main>
+        <main className="h-screen">
+          <MobileNavbar />
+          <Navbar />
+          <Container>
+            <Hero />
+            <About />
+            <Skills />
+            <Services />
+            <Projects />
+            <Contact />
+            <Footer />
+          </Container>
+        </main>
   );
 }
