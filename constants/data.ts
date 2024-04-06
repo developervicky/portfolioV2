@@ -83,7 +83,7 @@ export const skillsData = [
   },
   {
     id: "10",
-    name: "Github",
+    name: "Git",
   },
   {
     id: "11",
