@@ -168,7 +168,7 @@ export const ProjectsData = [
   {
     title: "WBC Classification using Deep Learning",
     description:
-      "Presenting a lightweight model with CNN- and U-Net-based architectures that can improve and expedite WBC analysis, helping to improve the effectiveness of illness diagnosis and treatment planning.",
+      "Presenting a lightweight model with CNN and U-Net-based architectures that can improve and expedite WBC analysis, helping to improve the effectiveness of illness diagnosis and treatment planning.",
     tags: [
       "Python",
       "TensorFlow",
