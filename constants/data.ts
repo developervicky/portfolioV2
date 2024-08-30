@@ -10,6 +10,7 @@ import foodieImg from "@/public/images/foodie.jpg";
 import docAIImg from "@/public/images/docAI.jpg";
 import DMMEImg from "@/public/images/DMME.jpg";
 import EcomImg from "@/public/images/ecom.png";
+import WbcImg from "@/public/images/wbc.jpg";
 
 export const navLinks = [
   {
@@ -29,8 +30,8 @@ export const navLinks = [
   },
   {
     id: "04",
-    name: "Services",
-    hash: "#services",
+    name: "Certifications",
+    hash: "#certifications",
   },
   {
     id: "05",
@@ -101,40 +102,91 @@ export const skillsData = [
     id: "14",
     name: "Python",
   },
+  {
+    id: "15",
+    name: "Numpy",
+  },
+  {
+    id: "16",
+    name: "Pandas",
+  },
+  {
+    id: "17",
+    name: "Matplotlib",
+  },
+  {
+    id: "18",
+    name: "Seaborn",
+  },
 ] as const;
 
-export const ServicesData = [
+export const CertificatesData = [
   {
     id: "01",
     item: "item-1",
-    heading: "Full Stack Development",
+    heading:
+      "Data Science and Machine Learning: Making Data-Driven Decisions program",
     description:
-      "Building Applications with dynamic components for optimization and user friendliness.",
+      "Under the direction of MIT professors and industry specialists, I examined about eighteen case studies, gained expertise by resolving every issue following IT methodology, and learned everything from the basics to complex ideas.",
+    issuer: "MIT Institute for Data, Systems, and Society (IDSS)",
   },
   {
     id: "02",
     item: "item-2",
-    heading: "User Interface Design",
+    heading: "Work on Data Analytics and Machine Learning",
     description:
-      "Creating wireframes and discussing with clients are best way to understand, emapthize and providing solutions to the client as per their needs are the best principles of Precoding phase.",
+      "Examined and analyzed the provided random data API using a variety of data visualization techniques.",
+    issuer: "SRM MTS Student Chapter, SRM Kattankulathur",
   },
   {
     id: "03",
     item: "item-3",
-    heading: "Lifetime Support",
+    heading: "High Tech Advance Workshop on Data Science",
     description:
-      "The Client can approach whenever the app needs debugging or refactoring the current version of code. New features upgrading, Changing UI/UX and related works are exceptional. 🙏",
+      "Google Trends data has been categorized according to a number of criteria and presented in an understandable graph.",
+    issuer: "Top Engineers - Anna University Alumni Startup ",
   },
   {
     id: "04",
     item: "item-4",
-    heading: "Tailored Solutions",
+    heading: "IBM Full Stack Software Developer Specialization",
     description:
-      "Reusable UI/UX components, Quick API responses, Server side rendering (less data load on client side), SEO Optimization are some of the few solutions and considerations to build the app to excellence. Many little coding practices combining all together make a huge difference in the result.",
+      "Python frameworks and modules including Flask, Pandas, NumPy, and BeautifulSoup were used in the development of the Translator app to carry out operations like data collection and web scraping using APIs.",
+    issuer: "IBM | Coursera",
+  },
+  {
+    id: "05",
+    item: "item-5",
+    heading: "Google UX Design Specialization",
+    description:
+      "Developed a case study for the project, which comprised identifying the user's pain issue and developing a persona and user journey map jointly. Designed low-fidelity and high-fidelity prototypes, mock-ups, and paper and digital wireframes for the project.   ",
+    issuer: "Google | Coursera",
   },
 ] as const;
 
 export const ProjectsData = [
+  {
+    title: "WBC Classification using Deep Learning",
+    description:
+      "Presenting a lightweight model with CNN- and U-Net-based architectures that can improve and expedite WBC analysis, helping to improve the effectiveness of illness diagnosis and treatment planning.",
+    tags: [
+      "Python",
+      "TensorFlow",
+      "Numpy",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "CV2",
+    ],
+    imageUrl: WbcImg,
+    links: [
+      {
+        name: "website",
+        link: "https://drive.google.com/file/d/1K71gRAhhK70ebWDUuJbqk_YG38LDN8Ck/view?usp=sharing",
+        icon: React.createElement(ExternalLink),
+      },
+    ],
+  },
   {
     title: "Ecom Admin & Store",
     description:

@@ -19,7 +19,7 @@ const Container: FC<ContainerProps> = ({ children }) => {
     <div className="grid  w-full grid-cols-12 px-3 sm:px-6">
       <div className="hidden w-full sm:block md:col-span-1 ">
         <div className="sticky top-[7rem] mt-[7rem] h-[600px] w-full border-r-[1px] border-slate-500 px-2">
-          <ul className="absolute -right-[14.2rem] top-[17rem] flex -rotate-90 flex-row-reverse gap-8 uppercase">
+          <ul className="absolute -right-[14.2rem] top-[18rem] flex -rotate-90 flex-row-reverse gap-8 uppercase">
             {links.map((link) => (
               <Link
                 href={`/${link.hash}`}

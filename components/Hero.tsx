@@ -12,7 +12,7 @@ const Hero = () => {
         I&apos;m Vignesh Kathiresan.
       </h2>
       <p className="mt-10 w-full max-w-[50rem] text-[28px] sm:text-[30px] md:text-[40px] lg:text-[45px] xl:text-[50px]">
-        I&apos;m a Software Full Stack Developer working remotely from India.
+        A Computer Science graduate, passion for Software development and Machine Learning from India.
       </p>
     </SectionWrapper>
   );
