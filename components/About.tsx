@@ -11,12 +11,12 @@ const About = () => {
       <Heading>About</Heading>
       <div className="prose mt-[2rem] w-full max-w-6xl pr-8 text-justify text-lg sm:pr-0 sm:text-xl">
         <p className="">
-          Hello, I&apos;m Vignesh Kathiresan. At the age of 17, when I&apos;ve
-          thought of my career options. I had a conviction that I should have to
-          pick career where people rely on lot. That got me to thinking on how
-          much I&apos;ve been fascinated by web and data, how it can play a
-          vital role in everyone&apos;s daily life that thought led me to give a
-          chance to explore the web development and data science.
+          Hello, I&apos;m Vignesh Kathiresan. At my high school days, when
+          I&apos;ve thought of my career options. I had a conviction that I
+          should have to pick career where people rely on lot. That got me to
+          thinking on how much I&apos;ve been fascinated by web and data, how it
+          can play a vital role in everyone&apos;s daily life that thought led
+          me to give a chance to explore the web development and data science.
         </p>
         <p>
           From my Junior year, I have been developing full-stack applications on
