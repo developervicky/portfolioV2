@@ -48,7 +48,7 @@ const Container: FC<ContainerProps> = ({ children }) => {
           <div className="flex flex-col gap-4 text-slate-500">
             <Link
               target="_blank"
-              href={"https://www.linkedin.com/in/vignesh-kathiresan-kv"}
+              href={"https://www.linkedin.com/in/vigneshk6"}
             >
               <FaLinkedin
                 className="transition-colors hover:cursor-pointer hover:text-blue-600"
