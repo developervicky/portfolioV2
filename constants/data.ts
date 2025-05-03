@@ -170,7 +170,7 @@ export const ProjectsData = [
     title: "roomieHunt",
     description:
       "Roommate finder app for university students. The app allows students to find roommates and also post their own room to share their rent.",
-    tags: ["Next.js", "Typescript", "MongoDB", "Tailwind", "zod", "Tanstack"],
+    tags: ["Next.js", "Typescript", "React", "MongoDB", "Tailwind", "zod", "Tanstack"],
     imageUrl: RoomieImg,
     links: [
       {
