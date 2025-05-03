@@ -11,6 +11,7 @@ import docAIImg from "@/public/images/docAI.jpg";
 import DMMEImg from "@/public/images/DMME.jpg";
 import EcomImg from "@/public/images/ecom.png";
 import WbcImg from "@/public/images/wbc.jpg";
+import RoomieImg from "@/public/images/roomiehunt.jpg";
 
 export const navLinks = [
   {
@@ -165,6 +166,20 @@ export const CertificatesData = [
 ] as const;
 
 export const ProjectsData = [
+  {
+    title: "roomieHunt",
+    description:
+      "Roommate finder app for university students. The app allows students to find roommates and also post their own room to share their rent.",
+    tags: ["Next.js", "Typescript", "MongoDB", "Tailwind", "zod", "Tanstack"],
+    imageUrl: RoomieImg,
+    links: [
+      {
+        name: "website",
+        link: "https://www.roomiehunt.com/",
+        icon: React.createElement(ExternalLink),
+      },
+    ],
+  },
   {
     title: "WBC Classification using Deep Learning",
     description:

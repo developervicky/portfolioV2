@@ -13,9 +13,12 @@ const ProjectTabs = () => {
   const ref =
     useRef<HTMLDivElement>() as React.MutableRefObject<HTMLInputElement>;
   const { events } = useDraggable(ref);
+
+  const head = ProjectsData[0].title
+
   return (
     <Tabs
-      defaultValue="Ecom Admin & Store"
+      defaultValue={head}
       className="pointer-events-auto mt-8 w-full pr-4 sm:pr-0"
     >
       <TabsList
