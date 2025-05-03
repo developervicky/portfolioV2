@@ -11,7 +11,7 @@ import docAIImg from "@/public/images/docAI.jpg";
 import DMMEImg from "@/public/images/DMME.jpg";
 import EcomImg from "@/public/images/ecom.png";
 import WbcImg from "@/public/images/wbc.jpg";
-import RoomieImg from "@/public/images/roomiehunt.jpg";
+import RoomieImg from "@/public/images/roomieHunt.jpg";
 
 export const navLinks = [
   {
